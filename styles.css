@@ -1,0 +1,17 @@
+.card {
+    border-bottom: solid 1px black;
+    padding-bottom: 1rem;
+}
+
+#new-book-btn {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#new-book-form {
+    padding: 3rem;
+}
+
+input {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="library-container">
+    </div>
+    
+    <button command="show-modal" commandfor="new-book-form" id="new-book-btn">New Book</button>
+
+    <dialog id="new-book-form">
+        <form>
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author"><br>
+            <label for="numPages">(int) Number of Pages:</label><br>
+            <input type="text" id="numPages" name="numPages"><br>
+            <label for="hasRead">(bool) Have you read it:</label><br>
+            <input type="text" id="hasRead" name="hasRead"><br>
+            <input id="submitBtn" type="submit" value="Submit">
+        </form>
+    </dialog>
+
+</body>
+</html>
